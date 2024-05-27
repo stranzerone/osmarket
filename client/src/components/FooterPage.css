@@ -1,0 +1,72 @@
+/* FooterPage.css */
+
+.footer-container {
+    margin-top: 2rem;
+   
+    background-color: #64a6adc3;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 85vw;
+    margin-left: 5vw;
+    border-radius: 5px;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 1rem;
+  }
+  
+  .column:last-child {
+    margin-right: 0;
+  }
+  
+  .column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    margin-bottom: 1rem;
+  }
+  
+  .company-description {
+    font-size: 0.9rem;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 1rem;
+  }
+  
+  p{
+    font-size: .9rem;
+  }
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  

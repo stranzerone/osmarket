@@ -1,0 +1,72 @@
+/* FAQPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+.faq-container {
+
+
+  margin-left: 15vw;
+  max-width: 70vw;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+ 
+}
+
+.heading-faq {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 800;
+  margin-bottom: 2rem;
+
+}
+
+.faq-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  position: relative;
+}
+
+.question {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer {
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  color: #666;
+  display: none;
+  margin-top: 0.5rem;
+}
+
+.show .answer {
+  display: block;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  color: blue;
+}
+
+.opened{
+    background-color:rgba(22, 61, 231, 0.844);
+    color: white;
+    padding: 5px;
+  box-shadow: 3px 3px 3px rgb(183, 175, 175);
+}
+.dropdown-button:hover {
+  color: darkblue;
+}

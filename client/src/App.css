@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Default font size for PC screens */
+html {
+    font-size: 16px; /* Adjust this value as needed */
+  }
+  
+  /* Adjust font size for tablets */
+  @media only screen and (max-width: 1024px) {
+    html {
+      font-size: 14px; /* Adjust this value as needed */
+    }
+  }
+  
+  /* Adjust font size for mobile devices */
+  @media only screen and (max-width: 767px) {
+    html {
+      font-size: 12px; /* Adjust this value as needed */
+    }
+  }
+  
+  /* Other styles */
+  

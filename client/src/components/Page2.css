@@ -1,0 +1,80 @@
+/* Page2.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.heading2 {
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  font-weight: 800;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.page2-cointainer{
+  padding: 5rem;
+}
+.image2 {
+  width: 100%;
+  max-width: 90vw;
+  height: 20rem;
+background-image: url("../Images/arrow.png");
+background-size: contain;
+}
+
+.cointainer-1 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cointainer-1-text {
+  width: 100%;
+  
+  padding: 1rem;
+  text-align: center;
+}
+
+.cointainer-1-text h1 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 900;
+}
+
+.cointainer-1-text p {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.5;
+}
+
+.get-started1 {
+  width: clamp(8rem, 10vw, 12rem);
+  height: clamp(2rem, 2.5vw, 3rem);
+  color: white;
+  font-weight: 700;
+  font-size: clamp(.5rem, 1vw, 2rem);
+  background-color: rgba(24, 53, 221, 0.776);
+  border: none;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+
+.heading-3{
+width: auto;
+  
+ 
+  font-size: clamp(.7rem, 1vw, 1.5rem);
+}
+
+@media (min-width: 768px) {
+  .cointainer-1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cointainer-1-text {
+    text-align: left;
+  }
+
+  .image2 {
+    margin-right: 2rem;
+  }
+}
